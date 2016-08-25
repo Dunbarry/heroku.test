@@ -7,7 +7,7 @@ let app = express()
 const port = process.env.PORT
 
 app.get('/', function(req,res){
-  res.json({message:"Drone online"})
+  res.json({message:"Drone online. Drone enacted."})
 })
 
 console.log(process.env);
